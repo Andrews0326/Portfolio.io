@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andrews A</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c4254e24a8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Experience</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Front - End Developer</p>
+          <h1>Hi, I'm <span>Andrews A</span></h1>
+        </div>
+      </div>
+    </div>
+    <!-- -----------about---------- -->
+    <div id="about">
+      <div class="container">
+        <div
+          class="row"
+          style="
+            border-radius: 20px;
+            background-color: lightgray;
+            margin-right: 50px;
+            margin-left: 50px;
+          "
+        >
+          <div class="about-col-1" style="margin-bottom: -20px">
+            <img
+              src="C:\Users\Milton Laptop\Desktop\Personal-portfolio\images\Personal.png"
+            />
+          </div>
+          <div
+            class="about-col-2"
+            style="margin-right: 20px; margin-bottom: 6px"
+          >
+            <br />
+            <h1 class="sub-title">A LITTLE ABOUT ME</h1>
+            <p style="color: black">
+              <br />
+              I am a dedicated Bachelor of Technology in Information Technology
+              student from St. Joseph's College of Engineering, Chennai. My
+              primary objective is to build a promising career in the field of
+              Information Technology and contribute positively to the growth of
+              a forward-thinking organization. With a strong work ethic and an
+              insatiable hunger for knowledge, I am committed to continuously
+              enhancing my skills and expertise. Further, I am looking forward
+              to leveraging my abilities to add value to the success of the
+              organization I'm associated with.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Certificates
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>HTML,CSS,JavaScript</span><br />Web development</li>
+                <li><span>MySQL</span><br />Database</li>
+                <li><span>Python</span><br />Problem solving</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Aug 2023</span><br />Python for Data Science | Infosys
+                  Springboard
+                </li>
+                <li>
+                  <span>Feb 2023</span><br />Web Designer & Web Developer Course
+                  | Udemy
+                </li>
+                <li>
+                  <span>July 2022</span><br />HTML and CSS for beginners |
+                  Infosys Springboard
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Aug 2020 - May 2024</span><br />BTech IT in St. Joseph's
+                  College of Engineering | 83%
+                </li>
+                <li>
+                  <span>May 2020</span><br />HSC at St. Paul's Matriculation
+                  Higher Secondary School | 67%
+                </li>
+                <li>
+                  <span>May 2018</span><br />SSLC at St. Paul's Matriculation
+                  Higher Secondary School | 95%
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------services---------------- -->
+    <div id="services">
+      <div class="container">
+        <h1
+          class="sub-title"
+          style="
+            border-radius: 15px;
+            margin-right: 20px;
+            margin-left: 20px;
+            background-color: #080808;
+            width: auto;
+            margin-top: -30px;
+            padding: 5px;
+            padding-left: 20px;
+          "
+        >
+          EXPERIENCE
+        </h1>
+
+        <div class="services-list">
+          <div>
+            <i class="fas fa-code"></i>
+            <h2>Data Scientist Intern</h2>
+            <p>
+              I built a spam email detector in Python using pandas. It assigns
+              values of 0 and 1 to identify spam and legitimate emails based on
+              a comparison with known spam emails in the dataset.
+              <a>Oct 2022 - Nov 2022</a>
+            </p>
+          </div>
+
+          <div>
+            <i class="fas fa-crop-alt"></i>
+            <h2>NPTEL<br />Computational Social Science | Workshop</h2>
+            <p>
+              I gained expertise in the latest trends of AI, Blockchain, and IoT
+              through an IT workshop. Now, I'm equipped to contribute
+              meaningfully to my organization's efforts to leverage these
+              technologies for growth and innovation.
+            </p>
+            <a>Aug 2022 - Aug 2022 </a>
+          </div>
+          <div>
+            <i class="fab fa-app-store"></i>
+            <h2>Sirius Technology Empowerment Program</h2>
+            <p>
+              The three-day workshop was highly interactive and aimed to equip
+              participants with tools and knowledge to create responsive web
+              pages. It enhanced their skill set and provided hands-on
+              experience. Overall, it proved to be an effective platform for
+              achieving the set objectives.
+            </p>
+            <a>Jul 2022 - Jul 2022 </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------portfolio------------ -->
+    <div id="portfolio">
+      <div class="container">
+        <h1
+          class="sub-title"
+          style="
+            border-radius: 15px;
+            margin-right: 20px;
+            margin-left: 20px;
+            background-color: #080808;
+            width: auto;
+            padding: 5px;
+            padding-left: 20px;
+          "
+        >
+          PROJECTS
+        </h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" />
+            <div class="layer">
+              <h3>Document Management System</h3>
+              <p>
+                The technology stack employed includes HTML5, CSS3, Bootstrap,
+                MySQL, and PHP. I have created a comprehensive full-stack
+                solution that enables secure file sharing through a
+                user-friendly web interface.
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" />
+            <div class="layer">
+              <h3>Restuarant Website</h3>
+              <p>
+                Employing HTML5, CSS3, and JavaScript, a responsive webpage was
+                designed to facilitate an effortless user experience. The
+                integration of trending designs elevates the user experience to
+                a whole new level.
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" />
+            <div class="layer">
+              <h3>Spam Mail Detector</h3>
+              <p>
+                The utilized technology stack for the project was Python. The
+                data frame was successfully populated with the uploaded CSV
+                file, and the data was then systematically parsed and
+                categorized into distinct text and labels.
+              </p>
+              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ----------contact------------- -->
+    <div
+      id="contact"
+      style="
+        border-radius: 20px;
+        background-color: white;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+      "
+    >
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <br />
+            <h1
+              class="sub-title"
+              style="
+                color: white;
+                border-radius: 0px;
+                background-color: black;
+                margin-bottom: 20px;
+                padding: 5px;
+                margin-right: 200px;
+              "
+            >
+              <center>
+                <small style="font-weight: bold">CONTACT ME</small>
+              </center>
+            </h1>
+            <p>
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:andrews03690@gmail.com">andrews03690@gmail.com</a>
+            </p>
+            <p>
+              <i class="fas fa-phone-square-alt"></i>
+              +91-9360353251
+            </p>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/_.p._r_i_n_c_.e._"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/andrews-a-63828b24b"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="https://wa.me/9360353251"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+            </div>
+            <a
+              href="C:\Users\Milton Laptop\Desktop\Personal-portfolio\images\Andrews IT.pdf"
+              download
+              class="btn btn2"
+              style="border-radius: 50px"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button
+                type="submit"
+                class="btn btn2"
+                style="border-radius: 50px"
+              >
+                Submit
+              </button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="copyright"
+        style="
+          border-top-right-radius: 0px;
+          border-top-left-radius: 0px;
+          border-bottom-left-radius: 20px;
+          border-bottom-right-radius: 20px;
+        "
+      >
+        <p>
+          Copyright ©
+          <a href="">Andrews</a>
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemeu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemeu.style.right = "0";
+      }
+      function closemenu() {
+        sidemeu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL = "< add you own link here >"; // add your own app script link here
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
